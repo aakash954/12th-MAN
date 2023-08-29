@@ -1,20 +1,30 @@
-{"url": "http://127.0.0.1:5000/api/team_record?team=Rising%20Pune%20Supergiants", "query": "/api/team_record?team=Rising%20Pune%20Supergiants"}
-{"url": "http://127.0.0.1:5000/history", "query": "/history?"}
 {"url": "http://127.0.0.1:5000/", "query": "/?"}
 {"url": "http://127.0.0.1:5000/history", "query": "/history?"}
-{"url": "http://127.0.0.1:5000/api/teams", "query": "/api/teams?"}
-{"url": "http://127.0.0.1:5000/api/team_record?team=Mumbai%20Indians", "query": "/api/team_record?team=Mumbai%20Indians"}
-{"url": "http://127.0.0.1:5000/api/team_record?team=Chennai%20Super%20Kings", "query": "/api/team_record?team=Chennai%20Super%20Kings"}
-{"url": "http://127.0.0.1:5000/api/team_record?team=Mumbai%20Indians", "query": "/api/team_record?team=Mumbai%20Indians"}
-{"url": "http://127.0.0.1:5000/api/teams", "query": "/api/teams?"}
-{"url": "http://127.0.0.1:5000/api/bowlers", "query": "/api/bowlers?"}
 {"url": "http://127.0.0.1:5000/api/batsmen", "query": "/api/batsmen?"}
-{"url": "http://127.0.0.1:5000/api/teamvsteam?team1=Rajasthan%20Royals", "query": "/api/teamvsteam?team1=Rajasthan%20Royals"}
+{"url": "http://127.0.0.1:5000/api/batsmen", "query": "/api/batsmen?"}
+{"url": "http://127.0.0.1:5000/api/bowling-record?bowler=B%20Kumar", "query": "/api/bowling-record?bowler=B%20Kumar"}
+{"url": "http://127.0.0.1:5000/bowling-record?bowler=B%20Kumar", "query": "/bowling-record?bowler=B%20Kumar"}
+{"url": "http://127.0.0.1:5000/api/batsmen-record?batsmen=V%20Kohli", "query": "/api/batsmen-record?batsmen=V%20Kohli"}
+{"url": "http://127.0.0.1:5000/api/batsmen-record?batsmen=V%20Kholi", "query": "/api/batsmen-record?batsmen=V%20Kholi"}
+{"url": "http://127.0.0.1:5000/api/batsmen-record?batsmen=V%20Kholi", "query": "/api/batsmen-record?batsmen=V%20Kholi"}
+{"url": "http://127.0.0.1:5000/api/team-record?team=Mumbai%20Indians", "query": "/api/team-record?team=Mumbai%20Indians"}
+{"url": "http://127.0.0.1:5000/api/team_record?team=Mumbai%20Indians", "query": "/api/team_record?team=Mumbai%20Indians"}
 {"url": "http://127.0.0.1:5000/api/teamvsteam?team1=Rajasthan%20Royals&team2=Royal%20Challengers%20Bangalore", "query": "/api/teamvsteam?team1=Rajasthan%20Royals&team2=Royal%20Challengers%20Bangalore"}
 {"url": "http://127.0.0.1:5000/api/teams", "query": "/api/teams?"}
 {"url": "http://127.0.0.1:5000/", "query": "/?"}
+{"url": "http://127.0.0.1:5000/api/bowling-record?bolwer=Mohammed%20Shami\\", "query": "/api/bowling-record?bolwer=Mohammed%20Shami\\"}
+{"url": "http://127.0.0.1:5000/api/teams", "query": "/api/teams?"}
+{"url": "http://127.0.0.1:5000/", "query": "/?"}
 {"url": "http://127.0.0.1:5000/history", "query": "/history?"}
-{"url": "http://127.0.0.1:5000/history", "query": "/history?", "result": null}
-{"url": "http://127.0.0.1:5000/", "query": "/?", "result": null}
-{"url": "http://127.0.0.1:5000/history", "query": "/history?", "result": null}
-{"url": "http://127.0.0.1:5000/api/team_record?team=Rising%20Pune%20Supergiants", "query": "/api/team_record?team=Rising%20Pune%20Supergiants", "result": null}
+{"url": "http://127.0.0.1:5000/api/teams", "query": "/api/teams?"}
+{"url": "http://127.0.0.1:5000/", "query": "/?"}
+{"url": "http://127.0.0.1:5000/history", "query": "/history?"}
+{"url": "http://127.0.0.1:5000/api/batsmen", "query": "/api/batsmen?"}
+{"url": "http://127.0.0.1:5000/history", "query": "/history?"}
+{"url": "http://127.0.0.1:5000/history", "query": "/history?"}
+{"url": "http://127.0.0.1:5000/", "query": "/?"}
+{"url": "http://127.0.0.1:5000/api/batsmanrecord?batsman=V%20Sehwag", "query": "/api/batsmanrecord?batsman=V%20Sehwag"}
+{"url": "http://127.0.0.1:5000/", "query": "/?"}
+{"url": "http://127.0.0.1:5000/api/teamvsteam?team1=Rajasthan%20Royals&team2=Royal%20Challengers%20Bangalore", "query": "/api/teamvsteam?team1=Rajasthan%20Royals&team2=Royal%20Challengers%20Bangalore"}
+{"url": "http://127.0.0.1:5000/api/batsmanrecord?batsman=V%20Sehwag", "query": "/api/batsmanrecord?batsman=V%20Sehwag"}
+{"url": "http://127.0.0.1:5000/api/teams", "query": "/api/teams?"}

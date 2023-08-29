@@ -3,8 +3,7 @@ import json
 
 # File path for storing history
 HISTORY_FILE = 'history.json'
-MAX_HISTORY_SIZE = 20
-
+MAX_HISTORY_SIZE = 30
 
 def add_to_history(url, query, result):
     # Load existing history from the file
@@ -12,7 +11,12 @@ def add_to_history(url, query, result):
     if os.path.exists(HISTORY_FILE):
         with open(HISTORY_FILE, 'r') as f:
             for line in f:
-                history.append(json.loads(line))
+                try:
+                    entry = json.loads(line)
+                    history.append(entry)
+                except json.JSONDecodeError as e:
+                    print(f"Error decoding JSON: {e}")
+                    print(f"Problematic line: {line}")
 
     # Add the new data to the history
     new_data = {
@@ -23,7 +27,7 @@ def add_to_history(url, query, result):
     # Add the new entry at the beginning of the history
     history.insert(0, new_data)
 
-    # If history size exceeds 20, remove the oldest entry
+    # If history size exceeds the maximum, remove the oldest entry
     if len(history) > MAX_HISTORY_SIZE:
         history = history[:MAX_HISTORY_SIZE]
 
@@ -33,7 +37,6 @@ def add_to_history(url, query, result):
             json.dump(entry, f)
             f.write('\n')
 
-
 def get_history():
     history = []
 
@@ -41,6 +44,12 @@ def get_history():
     if os.path.exists(HISTORY_FILE):
         with open(HISTORY_FILE, 'r') as f:
             for line in f:
-                history.append(json.loads(line))
+                try:
+                    entry = json.loads(line)
+                    history.append(entry)
+                except json.JSONDecodeError as e:
+                    print(f"Error decoding JSON: {e}")
+                    print(f"Problematic line: {line}")
 
     return history
+
