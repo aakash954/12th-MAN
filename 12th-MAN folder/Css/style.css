@@ -1,0 +1,80 @@
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+#navbar::before{
+    content: "";
+    background-color: purple;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+#logo{
+    margin: 5px 3px;
+}
+#logo img{
+    border-radius :100%;
+    margin: 6px 12px;
+    height: 100px;
+    position: relative;
+    border: 2px solid blue;
+}
+
+#navbar ul{
+    display: flex;
+    font-family: 'dinregular';
+    position: relative;
+    left: 350px;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.4rem;
+    color: white
+}
+#navbar ul li a{
+    display: block;
+    padding : 9px 40px;
+    border-radius: 32px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: blue;
+    /* //background-color: greenyellow; */
+    cursor: pointer;
+    transition: color 1s; 
+}
+#navbar ul{
+    display: flex;
+}
+
+/* for login button */
+.right{
+        position: absolute;
+        right: 34px;
+        top: 42px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+}
+.btn{
+    color: purple;
+    padding: 3px 14px;
+    border-radius: 15px;
+    border: 2px solid blue;
+    font-size: 20px;
+    font-family: bold;
+    cursor: pointer;
+    
+}
+.btn:hover{
+
+
+}
+
+
+  
